@@ -1,0 +1,166 @@
+body{
+    
+    font-family: 'roboto condesed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div1 ul{
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+div1 ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+div1 ul li a .fa{
+    line-height: 10px;
+     transition: 0.5s;
+     padding-right: 0px;
+     font-size: 10px;
+     color: #262626;
+ }
+div1 ul li a {
+    display:block;
+    padding-left: 20px;
+    text-decoration: none;
+    transition:.5s;
+    width: 190px;
+    display:absolute;
+    text-align:left;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.0);
+    transform: rotate( 0deg) skew(0deg) translate(0,0);
+    height:80px;
+    background: rgb(255, 255, 255);
+  }
+
+div1  ul li a span{
+    transition: 0.5s;
+    padding: 0;
+    margin: 0;
+    top: 6px;
+    color: #262626;
+    letter-spacing: 1px;
+    position: absolute;
+}
+div1 ul li a:after {
+    transform: .5s;
+    content: '';
+    position: absolute;
+    bottom:-9px;
+    height: 9px;
+    width:100%;
+    background: #4b4b4b7a;
+    left:-10px;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+ div1  ul li a:before {
+    content: '';
+    background: #4b4b4b7a;
+    top: 5px;
+    position: absolute;
+    transform: .5s;
+    left:-9px;
+    height:100%;
+    width: 10px;                                                                                   
+    transform: rotate(0deg) skewY(-45deg);
+  }
+ div1 ul li a:hover{
+
+    transform: rotate(-1deg) skew(25deg) translate(2px, -1px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+} 
+
+div1 ul li:hover .fa{
+    color: #fff;
+      }
+      div1 ul li a:hover span{
+          color: #fff;
+      }
+    
+    
+    
+    
+    
+   div1 ul li:hover:nth-child(1) a{
+          background: #ff006a;
+      }
+    div1  ul li:hover:nth-child(1) a::after{
+        background: #4b4b4b7a;
+    }
+    div1  ul li:hover:nth-child(1) a::before{
+          background: #4b4b4b7a;
+      }
+    
+    /*2nd*/
+    div1 ul li:hover:nth-child(2) a{
+        background: #ff006a;
+    }
+    div1 ul li:hover:nth-child(2) a::after{
+      background: #4b4b4b7a;
+    }
+    div1 ul li:hover:nth-child(2) a::before{
+        background: #4b4b4b7a;
+    }
+    
+    /* 3rd button*/
+    div1 ul li:hover:nth-child(3) a{
+        background: #ff006a;
+    }
+    div1 ul li:hover:nth-child(3) a::after{
+      background: #4b4b4b7a;
+    }
+    div1 ul li:hover:nth-child(3) a::before{
+        background:#4b4b4b7a ;
+    }
+    
+    /* 4th botton*/
+    div1 ul li:hover:nth-child(4) a{
+        background: #ff006a;
+    }
+    div1 ul li:hover:nth-child(4) a::after{
+      background: #4b4b4b7a;
+    }
+    div1 ul li:hover:nth-child(4) a::before{
+        background: #4b4b4b7a;
+    }
+
+
+    div2 ul{
+        position: absolute;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        top: 43%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+    }
+    div2 ul li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    div2 ul li a .fa{
+        line-height: 10px;
+         transition: 0.5s;
+         padding-right: 0px;
+         font-size: 30px;
+         color: #262626;
+    }
+    div2 ul li a {
+        display:block;
+        padding-left: 20px;
+        text-decoration: none;
+        transition:.5s;
+        width: 590px;
+        display:absolute;
+        text-align:center;
+        box-shadow: -20px 20px 10px rgba(0,0,0,.0);
+        transform: rotate( -2deg) skew(3deg) translate(0,0);
+        height:40px;
+        background: #ff006a;
+    }
+    

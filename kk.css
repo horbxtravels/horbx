@@ -1,0 +1,54 @@
+*body{
+    margin: 0%;
+    
+}
+.css-3d-text {
+    position: relative;
+    width: 1px;
+    height: 0px;
+    left: 10px;
+    font-size: 34px;
+    color: #ffffff;
+    font-family: Times New Roman;
+    text-shadow: 0px 0px 0 rgb(239,239,239),
+                 -1px 0px 0 rgb(224,224,224),
+                 -2px 0px 0 rgb(208,208,208),
+                 -3px 0px  0 rgb(192,192,192),
+                 -4px 0px 3px rgba(0,0,0,0.26),
+                 -4px 0px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+ }
+ .css-3d-text1 {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    top: 30px;
+    left: 10px;
+    font-size: 34px;
+    color: #ffffff;
+    font-family: Times New Roman;
+    text-shadow: 0px 0px 0 rgb(239,239,239),
+                 -1px 0px 0 rgb(224,224,224),
+                 -2px 0px 0 rgb(208,208,208),
+                 -3px 0px  0 rgb(192,192,192),
+                 -4px 0px 3px rgba(0,0,0,0.26),
+                 -4px 0px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+ }
+ .css-3d-text2 {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    top: 75px;
+    left: 35px;
+    font-size: 34px;
+    color: #ffffff;
+    font-family: Times New Roman;
+    text-shadow: 0px 0px 0 rgb(239,239,239),
+                 -1px 0px 0 rgb(224,224,224),
+                 -2px 0px 0 rgb(208,208,208),
+                 -3px 0px  0 rgb(192,192,192),
+                 -4px 0px 3px rgba(0,0,0,0.26),
+                 -4px 0px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+ }
